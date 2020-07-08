@@ -1,7 +1,7 @@
 const temp = 'string';
 const NAME = 'correct';
 
-console.log(temp);
+console.error(temp);
 
 (function () {
   alert('即時関数');
