@@ -1,9 +1,4 @@
 const temp = 'string';
-const NAME = 'correct';
-
-console.error(temp);
-
-(function () {
+console.error(temp)(() => {
   alert('即時関数');
-  console.log(NAME);
 })();
