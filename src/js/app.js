@@ -1,8 +1,8 @@
 var temp = "string"
-const NAME = 'correct';
+// const NAME = 'correct';
 
-console.log(temp);
+    console.log(temp)
 
 (function () {
-  alert("即時関数");
+	alert("即時関数");
 }())
