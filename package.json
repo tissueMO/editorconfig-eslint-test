@@ -14,14 +14,9 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-      "dist/**/*"
+    "*.js": [
+      "eslint --fix",
+      "git add"
     ]
   }
 }
