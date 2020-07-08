@@ -1,4 +1,5 @@
 var temp = "string"
+const NAME = 'correct';
 
 console.log(temp);
 
